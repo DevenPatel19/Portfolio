@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(30, 30, 39);
+    color: aliceblue;
+}
+
+nav,
+li>.active {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-size: 1.5rem;
+    align-items: center;
+    padding-left: 15px;
+}
+
+/* TEXT SHADOW */
+h1,
+.active {
+    text-shadow: 4px 4px 8px rgb(25, 25, 94);
+    color: rgb(9, 9, 39);
+}
+
+.links {
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin-right: 40px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.carousel {
+    margin-top: 150px;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 35px;
+    font-size: 1.25rem;
+}
+
+/* END OF INDEX.HTML STYLING */
+.card {
+    display: flex;
+    margin-bottom: 25px;
+    height: max-content;
+    width: 900px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px lightslategray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 75px;
+}
+
+.side {
+    display: flex;
+    flex: 9;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    margin-top: 15px;
+    ;
+    font-size: 1.5rem;
+}
+
+.about {
+    margin-top: 15px;
+}
+
+.icons {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-right: 10px;
+    border-radius: 50;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    -ms-border-radius: 5;
+    -o-border-radius: 5;
+}
+
+.picon {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    height: 50px;
+}
+
+/* END OF WORK.HTML STYLING */
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 25px;
+}
+.reach{
+    margin-bottom: 2rem;
+}
+.formtop{
+    display: flex;
+}
+.labels {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+.top{
+    margin-bottom: 1rem;
+}
+.fields{
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+#email{
+    margin-bottom: 1rem;
+}
+.btn{
+    display: inline-block;
+    margin-left: auto;
+    width: 605px;
+    outline: 1px red solid;
+}
